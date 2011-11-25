@@ -1,0 +1,300 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+%\usetheme{Warsaw}
+%\usetheme{Darmstadt}
+%\usetheme[secheader]{Boadilla}
+
+\usetheme[width=37pt]{Goettingen}
+\setbeamercolor*{frametitle}{parent=palette primary}
+\useinnertheme[shadow=true]{rounded}
+
+% or ...
+%\usetheme{monTheme}
+
+%\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+\usepackage{multicol}
+\setbeamertemplate{navigation symbols}{}
+\addtobeamertemplate{footline}{\center{\insertframenumber/\inserttotalframenumber}}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AtBeginSubsection[]{
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+frame<beamer>{ 
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+frametitle{Sommaire}   
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+tableofcontents[currentsection,currentsubsection] 
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AtBeginSection[]{
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+frame<beamer>{ 
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+frametitle{Sommaire}   
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+tableofcontents[currentsection,currentsubsection] 
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Global Anycast
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Graphics
+	filename /home/taeradan/SVN/teleragno/trunk/association/diaporama/JM2L11/mini-logo-jm2l.svg
+	width 100col%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/taeradan/SVN/teleragno/trunk/association/logo-teleragno_mini.svg
+	lyxscale 10
+	width 70col%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\lang french
+Global Anycast
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subtitle
+Construire un réseau anycast collaboratif, libre et mondial 
+\end_layout
+
+\begin_layout Author
+\begin_inset Graphics
+	filename /home/taeradan/SVN/teleragno/trunk/association/logo-teleragno_normal.pdf
+	lyxscale 10
+	width 70col%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Yves Dubromelle, Jean-Pierre Prunaret
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+Teleragno
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+\begin_inset Graphics
+	filename /home/taeradan/SVN/teleragno/trunk/association/diaporama/JM2L11/logo-jm2l.svg
+	lyxscale 30
+	width 75text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/taeradan/SVN/teleragno/trunk/association/diaporama/by-sa.svg
+	width 1.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Théorie du Net
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "jm2l_2011-theorie_du_net.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
