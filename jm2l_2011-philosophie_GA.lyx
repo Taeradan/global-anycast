@@ -81,18 +81,7 @@ Lorsque vous consultez un site internet, votre machine se connecte à un
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-<+->
-\end_layout
-
-\end_inset
-
-Limites du focntionnement actuel b: Problèmes ? Le caractère unique et central
- du serveur concerné.
+Limites du fonctionnement actuel : le caractère unique et central du serveur
 \end_layout
 
 \begin_layout Itemize
@@ -142,16 +131,6 @@ Ce qu'apporte l'anycast l'Anycast
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-<+->
-\end_layout
-
-\end_inset
-
 L'anycast permet de réduire l'impact de ces problèmes :
 \end_layout
 
