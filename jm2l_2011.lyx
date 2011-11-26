@@ -219,25 +219,22 @@ Construire un réseau anycast collaboratif, libre et mondial
 \end_layout
 
 \begin_layout Author
-\begin_inset Graphics
-	filename /home/taeradan/SVN/teleragno/trunk/association/logo-teleragno_normal.pdf
-	lyxscale 10
-	width 70col%
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
 Yves Dubromelle, Jean-Pierre Prunaret
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
 
-\lang english
-Teleragno
+\begin_layout Plain Layout
+
+~
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -362,6 +359,77 @@ filename "jm2l_2011-architecture_poc.lyx"
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout BeginFrame
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Pour participer :
+\end_layout
+
+\begin_layout Itemize
+wiki.global-anycast.net
+\end_layout
+
+\begin_layout Itemize
+irc: irc.geeknode.org/#dns
+\end_layout
+
+\begin_layout Itemize
+Être opérateur est un plus, mais non nécessaire
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+Merci de votre attention
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
 
 \end_layout
 

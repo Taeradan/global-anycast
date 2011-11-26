@@ -60,7 +60,7 @@
 
 \begin_body
 
-\begin_layout Subsection
+\begin_layout Subsection*
 Généralités sur Internet
 \end_layout
 
@@ -208,22 +208,6 @@ end{multicols}
 Comment ça marche : Systèmes autonomes
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{multicols}{2}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 Un des 40.000 morceaux d'Internet
 \end_layout
@@ -280,51 +264,6 @@ Doit pouvoir parler aux 40.000 autres AS
  nécessité de créer des liens
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-columnbreak
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename /home/taeradan/SVN/teleragno/trunk/association/diaporama/fai_pourquoi_comment/internet-fig1.png
-	lyxscale 50
-	width 100col%
-	height 100theight%
-	keepAspectRatio
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{multicols}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout BeginFrame
 Routage entre AS : Peering
 \end_layout
@@ -371,7 +310,7 @@ Routage entre AS : Transit
 Communiquer avec les AS que son voisin sait atteindre.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsection*
 IP et cardinalités
 \end_layout
 

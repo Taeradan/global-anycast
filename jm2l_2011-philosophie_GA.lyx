@@ -127,7 +127,7 @@ Censure des divers états (liberté d'expression induite par internet).
 \end_layout
 
 \begin_layout BeginFrame
-Ce qu'apporte l'anycast l'Anycast
+Ce qu'apporte l'anycast
 \end_layout
 
 \begin_layout Standard
@@ -275,7 +275,7 @@ status open
 
 \end_inset
 
-Racine alternative
+Racine alternative (.)
 \end_layout
 
 \begin_layout Itemize
@@ -356,7 +356,11 @@ Qui peut ajouter un service ?
 \end_layout
 
 \begin_layout Itemize
-Noeuds du réseau anycast, sous certaines conditions de confiance.
+Noeuds du réseau anycast.
+\end_layout
+
+\begin_layout Itemize
+Sous réserve de confiance.
 \end_layout
 
 \begin_layout EndFrame

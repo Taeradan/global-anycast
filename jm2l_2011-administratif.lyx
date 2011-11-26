@@ -73,7 +73,11 @@ Pas d'entité centrale
 \end_layout
 
 \begin_layout Itemize
-Mélange de do-o-cratie et démocratie
+Mélange de 
+\emph on
+do-ocratie
+\emph default
+ et démocratie
 \end_layout
 
 \begin_layout BeginFrame
@@ -81,7 +85,7 @@ France
 \end_layout
 
 \begin_layout Itemize
-Une association loi 1901
+Une association loi 1901 - bénévoles
 \end_layout
 
 \begin_layout Itemize
@@ -90,20 +94,21 @@ Un opérateur
 
 \begin_deeper
 \begin_layout Itemize
-AS-Set : AS-GLOBALANYCAST (à inclure aux AS-set des participants)
+AS-Set : AS-GLOBALANYCAST
 \end_layout
 
 \begin_layout Itemize
-AS : AS56825 (pour info)
+AS-Number : AS56825
 \end_layout
 
 \begin_layout Itemize
-Prefix v6 : 2001:67c:22a4::/48 (pour info)
+Prefix v6 : 
+\family typewriter
+2001:67c:22a4::/48
 \end_layout
 
 \begin_layout Itemize
-Maintainer : GLOBALANYCAST-MNT (faites tourner vos fingerprints pgp pour
- compléter l'objet)
+Maintainer : GLOBALANYCAST-MNT
 \end_layout
 
 \end_deeper
