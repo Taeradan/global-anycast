@@ -81,19 +81,59 @@ Lorsque vous consultez un site internet, votre machine se connecte à un
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 Limites du focntionnement actuel b: Problèmes ? Le caractère unique et central
  du serveur concerné.
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 DoS, saturation des liens
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 Pannes, incident sans volonté de nuire.
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 Censure des divers états (liberté d'expression induite par internet).
 \end_layout
 
@@ -102,24 +142,74 @@ Ce qu'apporte l'anycast l'Anycast
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 L'anycast permet de réduire l'impact de ces problèmes :
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 Attaque sur adresse IP anycastée
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 attaque du noeud le plus proche
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 les autres noeuds restent accessibles
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 Panne d'un noeud 
 \begin_inset Formula $\longrightarrow$
 \end_inset
@@ -128,15 +218,45 @@ Panne d'un noeud
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 Censure
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 filtrage par pays : contenu toujours accessible pour le reste de la planète
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 concentration de services sur le réseau anycast 
 \begin_inset Formula $\longrightarrow$
 \end_inset
@@ -151,39 +271,109 @@ Quels services sont anycastés ?
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 DNS
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 Racine alternative
 \end_layout
 
 \begin_layout Itemize
-Top Level Domains (.42)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
+Top Level Domains (.42, .noob)
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 Web
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Sites essentiels
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
+Sites essentiels (bortzmeyer.org :)
 \end_layout
 
 \begin_layout Itemize
-Sites menacés de censure (wikileaks)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
+Sites menacés de censure (wikileaks.org, streisand.me)
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<+->
+\end_layout
+
+\end_inset
+
 ?
 \end_layout
 
 \begin_layout BeginFrame
-En provenance de qui ?
+Qui peut ajouter un service ?
 \end_layout
 
 \begin_layout Itemize
