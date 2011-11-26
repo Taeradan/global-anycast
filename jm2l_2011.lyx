@@ -175,6 +175,12 @@ status open
 \begin_layout Plain Layout
 
 \lang english
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang english
 \begin_inset Graphics
 	filename /home/taeradan/SVN/teleragno/trunk/association/diaporama/JM2L11/mini-logo-jm2l.svg
 	width 100col%
@@ -182,7 +188,8 @@ status open
 \end_inset
 
 
-\begin_inset Newline newline
+\end_layout
+
 \end_inset
 
 
@@ -239,10 +246,19 @@ Teleragno
 \end_layout
 
 \begin_layout Institute
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename /home/taeradan/SVN/teleragno/trunk/association/diaporama/JM2L11/logo-jm2l.svg
 	lyxscale 30
 	width 75text%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -273,6 +289,23 @@ today
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout BeginFrame
+Sommaire
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
 
 \end_layout
 
@@ -312,6 +345,20 @@ Aspect administratif
 \begin_inset CommandInset include
 LatexCommand input
 filename "jm2l_2011-administratif.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Architecture du Proof of Concept
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "jm2l_2011-architecture_poc.lyx"
 
 \end_inset
 
