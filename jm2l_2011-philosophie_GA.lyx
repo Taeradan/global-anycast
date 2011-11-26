@@ -154,8 +154,32 @@ Quels services sont anycastés ?
 DNS
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Racine alternative
+\end_layout
+
+\begin_layout Itemize
+Top Level Domains (.42)
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Web
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sites essentiels
+\end_layout
+
+\begin_layout Itemize
+Sites menacés de censure (wikileaks)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+?
 \end_layout
 
 \begin_layout BeginFrame
