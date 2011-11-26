@@ -4,6 +4,8 @@
 \begin_header
 \textclass beamer
 \begin_preamble
+\definecolor{MonJaune}{HTML}{FFFFAA}
+
 %\usetheme{Warsaw}
 %\usetheme{Darmstadt}
 %\usetheme[secheader]{Boadilla}
@@ -11,11 +13,12 @@
 \usetheme[width=37pt]{Goettingen}
 \setbeamercolor*{frametitle}{parent=palette primary}
 \useinnertheme[shadow=true]{rounded}
+\setbeamercolor{block body}{bg=MonJaune}
 
 % or ...
 %\usetheme{monTheme}
 
-%\setbeamercovered{transparent}
+\setbeamercovered{highly dynamic}
 % or whatever (possibly just delete it)
 
 \usepackage{multicol}
