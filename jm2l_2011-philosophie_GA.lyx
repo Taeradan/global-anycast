@@ -61,10 +61,11 @@
 \begin_body
 
 \begin_layout BeginFrame
-Rôle de l'anycast
-\end_layout
+Limite du modèle centralisé
+\begin_inset Note Note
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Lorsque vous consultez un site internet, votre machine se connecte à un
  serveur.
  L'infrastructure la plus simple consiste à relier ce serveur à internet
@@ -74,53 +75,77 @@ Lorsque vous consultez un site internet, votre machine se connecte à un
  du réseau.
 \end_layout
 
-\begin_layout Standard
-Problèmes ? Le caractère unique et central du serveur concerné.
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-Il peut être victime d'attaques par déni de service consistant à perturber
- le fonctionnement du système ou à saturer sa liaison avec internet.
-\end_layout
 
-\begin_layout Itemize
-Il peut être en panne, déconnecté, ou autre incident sans volonté de nuire
- de qui que ce soit.
-\end_layout
-
-\begin_layout Itemize
-Et enfin, le pire, ça reste les tentatives de censure des divers états qui
- ne savent toujours pas composer avec la liberté d'expression induite par
- internet.
 \end_layout
 
 \begin_layout Standard
-Il n'existe aucune solution magique, mais l'anycast permet de réduire l'impact
- de ces problèmes :
+Limites du focntionnement actuel b: Problèmes ? Le caractère unique et central
+ du serveur concerné.
 \end_layout
 
 \begin_layout Itemize
-Si un (ou plusieurs) attaquant(s) visent l'adresse IP hébergeant les DNS
- d'un nom de domaine ou le contenu même du site, ils n'attaqueront que le
- noeud le plus proche de chez eux du point de vue de la topologie du réseau.
- Les autres noeuds distribuant l'information resteront pleinement accessibles
+DoS, saturation des liens
 \end_layout
 
 \begin_layout Itemize
-En cas de panne d'un noeud, le trafic est automatiquement reporté sur un
- autre noeud
+Pannes, incident sans volonté de nuire.
 \end_layout
 
 \begin_layout Itemize
-Dans le cas de censure, la loi d'un pays pourra probablement interdire au
- plus grand nombre l'accès au contenu en question par des méthodes de filtrage,
- mais le reste du réseau sera toujours pleinement accessible pour le reste
- de la planète.
- Par ailleurs, la concentration de services divers sur le réseau anycast
- entraînera inévitablement des problèmes collatéraux de filtrage qui donneront
- peut-être à réfléchir aux censeurs maladifs.
+Censure des divers états (liberté d'expression induite par internet).
 \end_layout
 
+\begin_layout BeginFrame
+Ce qu'apporte l'anycast l'Anycast
+\end_layout
+
+\begin_layout Standard
+L'anycast permet de réduire l'impact de ces problèmes :
+\end_layout
+
+\begin_layout Itemize
+Attaque sur adresse IP anycastée
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+attaque du noeud le plus proche
+\end_layout
+
+\begin_layout Itemize
+les autres noeuds restent accessibles
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Panne d'un noeud 
+\begin_inset Formula $\longrightarrow$
+\end_inset
+
+ trafic automatiquement reporté sur un autre noeud
+\end_layout
+
+\begin_layout Itemize
+Censure
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+filtrage par pays : contenu toujours accessible pour le reste de la planète
+\end_layout
+
+\begin_layout Itemize
+concentration de services sur le réseau anycast 
+\begin_inset Formula $\longrightarrow$
+\end_inset
+
+ problèmes collatéraux de filtrage qui donneront peut-être à réfléchir aux
+ censeurs maladifs.
+\end_layout
+
+\end_deeper
 \begin_layout BeginFrame
 Quels services sont anycastés ?
 \end_layout
