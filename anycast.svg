@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
    width="900pt"
    height="600pt"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.43"
-   sodipodi:docname="anycast.svg"
-   sodipodi:docbase="/home/cyberix/Desktop">
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="anycast.svg">
   <metadata
      id="metadata28">
     <rdf:RDF>
@@ -28,8 +28,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:window-height="555"
-     inkscape:window-width="822"
+     inkscape:window-height="695"
+     inkscape:window-width="1366"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -39,9 +39,11 @@
      inkscape:zoom="0.50133333"
      inkscape:cx="562.5"
      inkscape:cy="375"
-     inkscape:window-x="140"
-     inkscape:window-y="63"
-     inkscape:current-layer="svg2" />
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-maximized="1" />
   <defs
      id="defs4">
     <marker
@@ -155,20 +157,11 @@
        style="opacity:1;fill:#55ff55;fill-opacity:1;stroke:#000000;stroke-width:8.80000019;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4429" />
     <path
-       d="M 349.66498,331.66359 L 649.81391,231.70614"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.69999981;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Lend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4433"
-       sodipodi:nodetypes="cc" />
-    <path
-       d="M 352.45304,331.54914 L 428.61261,427.52255"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.69999981;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Lend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4435"
-       sodipodi:nodetypes="cc" />
-    <path
-       d="M 350.36306,333.94609 L 820.7354,573.8929"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.69999981;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Lend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 349.23762,332.82065 516.04046,571.56502"
+       style="fill:none;stroke:#000000;stroke-width:5.24889851;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Lend)"
        id="path4437"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0" />
   </g>
   <path
      style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.69999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

@@ -61,10 +61,29 @@
 \begin_body
 
 \begin_layout BeginFrame
+Noeud anycast
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename noeud.dia
+	lyxscale 10
+	width 100col%
+	height 100theight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
 Un ensemble de noeuds
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename arch-1.svg
 	lyxscale 10
@@ -78,10 +97,11 @@ Un ensemble de noeuds
 \end_layout
 
 \begin_layout BeginFrame
-LIens entre les noeuds
+Liens entre les noeuds
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename arch-2.svg
 	lyxscale 10
@@ -99,6 +119,7 @@ Les réseaux autour
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename arch-3.svg
 	lyxscale 10
@@ -116,6 +137,7 @@ Sélection d'un noeud depuis un client
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename arch-4.svg
 	lyxscale 10
