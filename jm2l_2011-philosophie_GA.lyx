@@ -1,0 +1,149 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\use_default_options true
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout BeginFrame
+Rôle de l'anycast
+\end_layout
+
+\begin_layout Standard
+Lorsque vous consultez un site internet, votre machine se connecte à un
+ serveur.
+ L'infrastructure la plus simple consiste à relier ce serveur à internet
+ d'une façon similaire à celle que vous utilisez vous aussi pour vous y
+ relier.
+ Chacun possède son adresse IP qui lui permet de discuter avec l'ensemble
+ du réseau.
+\end_layout
+
+\begin_layout Standard
+Problèmes ? Le caractère unique et central du serveur concerné.
+\end_layout
+
+\begin_layout Itemize
+Il peut être victime d'attaques par déni de service consistant à perturber
+ le fonctionnement du système ou à saturer sa liaison avec internet.
+\end_layout
+
+\begin_layout Itemize
+Il peut être en panne, déconnecté, ou autre incident sans volonté de nuire
+ de qui que ce soit.
+\end_layout
+
+\begin_layout Itemize
+Et enfin, le pire, ça reste les tentatives de censure des divers états qui
+ ne savent toujours pas composer avec la liberté d'expression induite par
+ internet.
+\end_layout
+
+\begin_layout Standard
+Il n'existe aucune solution magique, mais l'anycast permet de réduire l'impact
+ de ces problèmes :
+\end_layout
+
+\begin_layout Itemize
+Si un (ou plusieurs) attaquant(s) visent l'adresse IP hébergeant les DNS
+ d'un nom de domaine ou le contenu même du site, ils n'attaqueront que le
+ noeud le plus proche de chez eux du point de vue de la topologie du réseau.
+ Les autres noeuds distribuant l'information resteront pleinement accessibles
+\end_layout
+
+\begin_layout Itemize
+En cas de panne d'un noeud, le trafic est automatiquement reporté sur un
+ autre noeud
+\end_layout
+
+\begin_layout Itemize
+Dans le cas de censure, la loi d'un pays pourra probablement interdire au
+ plus grand nombre l'accès au contenu en question par des méthodes de filtrage,
+ mais le reste du réseau sera toujours pleinement accessible pour le reste
+ de la planète.
+ Par ailleurs, la concentration de services divers sur le réseau anycast
+ entraînera inévitablement des problèmes collatéraux de filtrage qui donneront
+ peut-être à réfléchir aux censeurs maladifs.
+\end_layout
+
+\begin_layout BeginFrame
+Quels services sont anycastés ?
+\end_layout
+
+\begin_layout Itemize
+DNS
+\end_layout
+
+\begin_layout Itemize
+Web
+\end_layout
+
+\begin_layout BeginFrame
+En provenance de qui ?
+\end_layout
+
+\begin_layout Itemize
+Noeuds du réseau anycast, sous certaines conditions de confiance.
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document

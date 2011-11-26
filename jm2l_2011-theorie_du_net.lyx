@@ -60,6 +60,10 @@
 
 \begin_body
 
+\begin_layout Subsection
+Généralités sur Internet
+\end_layout
+
 \begin_layout BeginFrame
 Qu'est-ce qu'Internet ?
 \end_layout
@@ -201,7 +205,7 @@ end{multicols}
 \end_layout
 
 \begin_layout BeginFrame
-Comment ça marche ?
+Comment ça marche ? Systèmes autonomes
 \end_layout
 
 \begin_layout Standard
@@ -322,7 +326,7 @@ end{multicols}
 \end_layout
 
 \begin_layout BeginFrame
-Routage avec BGP : Peering
+Routage entre AS : Peering
 \end_layout
 
 \begin_layout Standard
@@ -345,7 +349,7 @@ Communiquer avec son voisin.
 \end_layout
 
 \begin_layout BeginFrame
-Routage avec BGP : Transit
+Routage entre AS : Transit
 \end_layout
 
 \begin_layout Standard
@@ -365,6 +369,74 @@ Routage avec BGP : Transit
 \begin_layout Standard
 \align center
 Communiquer avec les AS que son voisin sait atteindre.
+\end_layout
+
+\begin_layout Subsection
+IP et cardinalités
+\end_layout
+
+\begin_layout BeginFrame
+IP Unicast
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename unicast.svg
+	lyxscale 10
+	height 50theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+IP Broadcast
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename broadcast.svg
+	lyxscale 10
+	height 50theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+IP Multicast
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename multicast.svg
+	lyxscale 10
+	height 50theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+IP Anycast
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename anycast.svg
+	lyxscale 10
+	height 50theight%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame

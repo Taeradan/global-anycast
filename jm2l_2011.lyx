@@ -273,15 +273,6 @@ today
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Théorie du Net
 \end_layout
@@ -290,6 +281,34 @@ Théorie du Net
 \begin_inset CommandInset include
 LatexCommand input
 filename "jm2l_2011-theorie_du_net.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Philosophie du projet
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "jm2l_2011-philosophie_GA.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aspect administratif
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "jm2l_2011_administratif.lyx"
 
 \end_inset
 
