@@ -10,7 +10,7 @@
 %\usetheme{Darmstadt}
 %\usetheme[secheader]{Boadilla}
 
-\usetheme[width=37pt]{Goettingen}
+\usetheme[width=42pt]{Goettingen}
 \setbeamercolor*{frametitle}{parent=palette primary}
 \useinnertheme[shadow=true]{rounded}
 \setbeamercolor{block body}{bg=MonJaune}
@@ -308,6 +308,16 @@ LatexCommand tableofcontents
 
 \begin_layout Section
 Théorie du Net
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+Théorie
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -322,6 +332,16 @@ filename "jm2l_2011-theorie_du_net.lyx"
 
 \begin_layout Section
 Philosophie du projet
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+Philosophie
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -336,6 +356,16 @@ filename "jm2l_2011-philosophie_GA.lyx"
 
 \begin_layout Section
 Aspect administratif
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+Administratif
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -350,6 +380,16 @@ filename "jm2l_2011-administratif.lyx"
 
 \begin_layout Section
 Architecture du Proof of Concept
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+Architecture PoC
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
